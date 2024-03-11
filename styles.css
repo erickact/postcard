@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+	font-family: "Playpen Sans";
+	font-weight: 300px;
+}
+
+.postcard {
+	background-color: white;
+	width: 430px;
+	height: 340px;
+	margin: auto;
+	padding: 10px;
+}
+
+.postcard-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.postcard-header img {
+	width: 60px;
+	height: 60px;
+}
+
+.postcard-header h1 {
+	width: 100%;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin: 0 0 20px;
+}
+
+.body-left,
+.body-right {
+	padding: 5px;
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid gray;
+	font-family: "Playpen Sans";
+	margin-bottom: 10px;
+	outline: none;
+}
+
+.postcard-footer {
+	text-align: center;
+	margin-top: 15px;
+}
+
+button {
+	font-family: "Playpen Sans";
+	background-color: rgba(198, 193, 193, 0.85);
+	padding: 5px 5px 8px;
+	border: none;
+	border-bottom: 1px solid gray;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+button:hover {
+	background-color: rgba(180, 175, 175, 0.85);
+}
